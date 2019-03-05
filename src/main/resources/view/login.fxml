@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.layout.VBox?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import javafx.scene.layout.HBox?>
+<?import com.jfoenix.controls.JFXButton?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.tzotopia.fplogin.LoginView"
+            fx:id="loginPane"
+            prefHeight="600" prefWidth="800"
+            stylesheets="@../styles/base.css, @../styles/forms.css"
+            styleClass="root">
+    <top>
+        <!--<Header />-->
+    </top>
+    <center>
+        <VBox spacing="20" alignment="CENTER" prefWidth="400" maxWidth="400">
+            <VBox spacing="3" >
+                <Label styleClass="form-label" text="Name" />
+                <JFXTextField fx:id="username" styleClass="form-txt-input"/>
+                <Label fx:id="lblUsernameInfo" styleClass="invalid-field-label"/>
+            </VBox>
+            <VBox spacing="3">
+                <Label styleClass="form-label" text="Password" />
+                <JFXPasswordField fx:id="password" styleClass="form-txt-input"/>
+                <Label fx:id="lblPasswordInfo" styleClass="invalid-field-label"/>
+            </VBox>
+            <HBox alignment="CENTER_RIGHT">
+                <JFXButton fx:id="loginButton" text="Login" styleClass="btn-primary"/>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

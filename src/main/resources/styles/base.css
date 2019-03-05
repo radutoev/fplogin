@@ -1,0 +1,24 @@
+.root {
+    -fx-font-family: 'Gill';
+    -fx-padding-top: 40px;
+    -fx-background-color: white;
+}
+
+#header {
+    -fx-width: 100%;
+    -fx-padding: 0 10px 0 10px;
+}
+
+.lbl-title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #707070;
+}
+
+.btn-primary {
+    -jfx-button-type: FLAT;
+    -fx-cursor: hand;
+    -fx-border-radius: 25;
+    -fx-background-color: #EC6602;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}

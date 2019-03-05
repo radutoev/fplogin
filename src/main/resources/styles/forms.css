@@ -1,0 +1,17 @@
+.helper-text {
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
+
+.form-label {
+    -fx-font-size: 18px;
+}
+
+.form-txt-input {
+    -fx-font-size: 14px;
+}
+
+.invalid-field-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: "#B00020";
+}

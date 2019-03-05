@@ -17,9 +17,6 @@
             prefHeight="600" prefWidth="800"
             stylesheets="@../styles/base.css, @../styles/forms.css"
             styleClass="root">
-    <top>
-        <!--<Header />-->
-    </top>
     <center>
         <VBox spacing="20" alignment="CENTER" prefWidth="400" maxWidth="400">
             <VBox spacing="3" >
